@@ -8,117 +8,123 @@ const chapters = [
         {
           title:"🎯 Our Mission",
           items:[
-            {strong:"Who we're for",text:"Anyone who practices or is curious about non-monogamy, seeks community or support, believes in consent and curiosity, or wants to question what society taught us about love."},
-            {strong:"What we do",text:"We host warm, thoughtful events; provide resources for ethical non-monogamy; run circles where people can be honest about their lives; and partner with movements that want a kinder world."},
+            {strong:"Who we're for", text:"Anyone who practices or is curious about non-monogamy, seeks community or support, believes in consent and curiosity, or wants to question what society taught us about love."},
+            {strong:"What we do", text:"We host warm, thoughtful events; provide resources for ethical non-monogamy; run circles where people can be honest about their lives; and partner with movements that want a kinder world."},
           ]
         },
         {
           title:"💠 Our 7 Core Values",
           items:[
-            {strong:"💛 Inclusive",text:"Inclusion is the ground we stand on, not a finish line. If you're here, you belong."},
-            {strong:"🤝 Monogamy-Friendly",text:"We believe in your right to choose. Monogamous people and allies are always welcome. Non-monogamy isn't a moral upgrade, just another valid path."},
-            {strong:"🌍 Movement-Minded",text:"Non-monogamy is woven into social justice, LGBTQIA+ rights, racial equity, sex-positivity and more."},
-            {strong:"🧬 Intersectional",text:"People are constellations. We honour overlapping identities and know that marginalisation compounds."},
-            {strong:"🛑 Anti-Oppression",text:"Sexual freedom is linked to every freedom. We fight against racism, patriarchy, classism and ableism."},
-            {strong:"🛠️ Impact-Oriented",text:"Every action is meant to ripple outward, changing how we love, represent ourselves, and reshape culture."},
-            {strong:"🎓 Culturally Humble",text:"We are always learning. We name privilege, walk in others' footsteps, and strive for accountability over perfection."},
+            {strong:"💛 Inclusive", text:"Inclusion is the ground we stand on, not a finish line. If you're here, you belong."},
+            {strong:"🤝 Monogamy-Friendly", text:"We believe in your right to choose. Monogamous people and allies are always welcome. Non-monogamy isn't a moral upgrade, just another valid path."},
+            {strong:"🌍 Movement-Minded", text:"Non-monogamy is woven into social justice, LGBTQIA+ rights, racial equity, sex-positivity and more."},
+            {strong:"🧬 Intersectional", text:"People are constellations. We honour overlapping identities and know that marginalisation compounds."},
+            {strong:"🛑 Anti-Oppression", text:"Sexual freedom is linked to every freedom. We fight against racism, patriarchy, classism and ableism."},
+            {strong:"🛠️ Impact-Oriented", text:"Every action is meant to ripple outward, changing how we love, represent ourselves, and reshape culture."},
+            {strong:"🎓 Culturally Humble", text:"We are always learning. We name privilege, walk in others' footsteps, and strive for accountability over perfection."},
           ]
         }
       ]
     },
     label:"Chapter 1 · Who We Are",
     qs:[
-      {q:"What is Open Hub's primary purpose?",o:["A dating app for non-monogamous people","A community bringing visibility to non-monogamy and diverse relationship styles","An event company that rents venues in Lisbon","A therapy network for relationship issues"],c:1,f:"Open Hub exists to bring visibility to non-monogamy and other relationship styles, creating space for anyone curious, cautious, or experienced."},
-      {q:"Which of these is NOT one of Open Hub's 7 core values?",o:["Intersectional","Anti-Oppression","Competitive","Inclusive"],c:2,f:"The 7 values are: Inclusive, Monogamy-Friendly, Movement-Minded, Intersectional, Anti-Oppression, Impact-Oriented, and Culturally Humble. Competitive isn't one of them!"},
-      {q:"Open Hub is only for people who already practice non-monogamy.",o:["True, it's a space just for non-monogamous folks","False, it's also for people who are simply curious","True, newcomers need an intro course first","False, but monogamous people must eventually convert"],c:1,f:"Open Hub welcomes anyone who practices or is simply curious about non-monogamy, regardless of where they are on their journey."},
-      {q:"What does 'Monogamy-Friendly' mean as an Open Hub value?",o:["Everyone must eventually become non-monogamous","Non-monogamy is morally superior to monogamy","Monogamous people and allies are welcome, it's about the right to choose","Monogamous people can only attend as guests"],c:2,f:"Monogamy-Friendly means Open Hub believes in your right to choose. Non-monogamy isn't a moral upgrade , just another valid path through the woods."},
-      {q:"Open Hub sees non-monogamy as connected to which broader themes?",o:["Only personal relationships and dating","Social justice, LGBTQIA+ rights, racial equity and sex-positivity","Business networking and personal finance","Sports and physical wellness"],c:1,f:"Open Hub is Movement-Minded , non-monogamy is woven into social justice, touching racial equity, LGBTQIA+ rights, and more."}
+      {q:"What is Open Hub's primary purpose?", o:["A dating app for non-monogamous people","A community bringing visibility to non-monogamy and diverse relationship styles","An event company that rents venues in Lisbon","A therapy network for relationship issues"], c:1, f:"Open Hub exists to bring visibility to non-monogamy and other relationship styles, creating space for anyone curious, cautious, or experienced."},
+      {q:"Which of these is NOT one of Open Hub's 7 core values?", o:["Intersectional","Anti-Oppression","Competitive","Inclusive"], c:2, f:"The 7 values are: Inclusive, Monogamy-Friendly, Movement-Minded, Intersectional, Anti-Oppression, Impact-Oriented, and Culturally Humble. Competitive isn't one of them!"},
+      {q:"Open Hub is only for people who already practice non-monogamy.", o:["True, it's a space just for non-monogamous folks","False, it's also for people who are simply curious","True, newcomers need an intro course first","False, but monogamous people must eventually convert"], c:1, f:"Open Hub welcomes anyone who practices or is simply curious about non-monogamy, regardless of where they are on their journey."},
+      {q:"What does 'Monogamy-Friendly' mean as an Open Hub value?", o:["Everyone must eventually become non-monogamous","Non-monogamy is morally superior to monogamy","Monogamous people and allies are welcome, it's about the right to choose","Monogamous people can only attend as guests"], c:2, f:"Monogamy-Friendly means Open Hub believes in your right to choose. Non-monogamy isn't a moral upgrade, just another valid path through the woods."},
+      {q:"Open Hub sees non-monogamy as connected to which broader themes?", o:["Only personal relationships and dating","Social justice, LGBTQIA+ rights, racial equity and sex-positivity","Business networking and personal finance","Sports and physical wellness"], c:1, f:"Open Hub is Movement-Minded, non-monogamy is woven into social justice, touching racial equity, LGBTQIA+ rights, and more."},
+      {q:"A volunteer realises their own cultural background leads them to make assumptions about a member's relationship. Which value is most directly at stake?", o:["Impact-Oriented, because it affects outcomes","Culturally Humble, because it calls for naming privilege and seeking to understand","Monogamy-Friendly, because the member might be monogamous","Inclusive, because the member must feel included"], c:1, f:"Culturally Humble means naming privilege, walking in others' footsteps, and choosing accountability over perfection. It's specifically about recognising how our own background shapes assumptions."},
+      {q:"Open Hub's 'Impact-Oriented' value means volunteers should:", o:["Focus only on growing event attendance numbers","Take actions meant to ripple outward and reshape how we love and represent ourselves culturally","Prioritise content that goes viral on social media","Compete with other non-monogamy organisations for visibility"], c:1, f:"Impact-Oriented means every action is meant to ripple outward, changing how we love, represent ourselves, and reshape culture, not just boosting numbers."}
     ]
   },
   {
     id:1, icon:"✨", title:"Our Spaces & Events", sub:"Every group and gathering we host",
     doc: {
-      highlight: `Every month we open our doors to anyone , regardless of gender identity, orientation, or where you are in your journey. Our gatherings are more than events , they're <strong>experiments in belonging</strong>, classrooms of empathy, living proof that connection doesn't require conformity.`,
+      highlight: `Every month we open our doors to anyone, regardless of gender identity, orientation, or where you are in your journey. Our gatherings are more than events, they're <strong>experiments in belonging</strong>, classrooms of empathy, living proof that connection doesn't require conformity.`,
       sections: [
         {
           title:"📅 Regular Gatherings",
           items:[
-            {strong:"🌙 PolyNight",text:"Our flagship event! A monthly social gathering open to the entire community , newcomers and regulars alike."},
-            {strong:"💬 Discussion Group",text:"Facilitated conversations on topics related to non-monogamy , educational and thought-provoking."},
-            {strong:"🤗 Support Group",text:"A sharing circle to open up about lived experiences in non-monogamy, in a safe and supported space."},
-            {strong:"🎲 Boardgame Night",text:"Fun, inclusive board game nights , perfect for newcomers who want a lighter entry point."},
-            {strong:"📚 Book Club",text:"Reading & discussion exploring themes around relationships, identity, gender, and love."},
-            {strong:"🏛️ Town Hall",text:"Our decision-making & transparency event where the whole community shapes Open Hub's direction together."},
+            {strong:"🌙 PolyNight", text:"Our flagship event! A monthly social gathering open to the entire community, newcomers and regulars alike."},
+            {strong:"💬 Discussion Group", text:"Facilitated conversations on topics related to non-monogamy, educational and thought-provoking."},
+            {strong:"🤗 Support Group", text:"A sharing circle to open up about lived experiences in non-monogamy, in a safe and supported space."},
+            {strong:"🎲 Boardgame Night", text:"Fun, inclusive board game nights, perfect for newcomers who want a lighter entry point."},
+            {strong:"📚 Book Club", text:"Reading & discussion exploring themes around relationships, identity, gender, and love."},
+            {strong:"🏛️ Town Hall", text:"Our decision-making & transparency event where the whole community shapes Open Hub's direction together."},
           ]
         },
         {
           title:"👥 Identity-Specific Circles",
           items:[
-            {strong:"FLINTA*",text:"Sharing circle for: Women, Lesbians, Intersex, Non-binary, Trans and Agender folks. A safe space for these identities."},
-            {strong:"MAGIC",text:"Sharing circle for: Male-identifying, Agender, Gender-fluid, Intersex, and Cis-men people."},
-            {strong:"👨‍👩‍👧 Families Group",text:"For people in non-monogamous family dynamics: mutual support, sharing and organising meetups with kids."},
+            {strong:"FLINTA*", text:"A dedicated space for Women, Lesbians, Intersex, Non-binary, Trans and Agender folks. The format shifts depending on who shows up: socials where the first hour is a reflective or creative activity, workshops on relational topics, or fun outings like a spring picnic. Not always a sharing circle, always a safe one."},
+            {strong:"MAGIC", text:"Sharing circle for: Male-identifying, Agender, Gender-fluid, Intersex, and Cis-men people."},
+            {strong:"👨‍👩‍👧 Families Group", text:"For people in non-monogamous family dynamics: mutual support, sharing and organising meetups with kids."},
           ]
         }
       ]
     },
     label:"Chapter 2 · Spaces & Events",
     qs:[
-      {q:"What is PolyNight?",o:["A closed support group for polyamorous couples only","A monthly social gathering open to the whole community","A weekly online meeting for volunteers","An annual fundraising gala"],c:1,f:"PolyNight is Open Hub's monthly social gathering , open to everyone in the community. It's the flagship event!"},
-      {q:"The FLINTA circle is specifically for which people?",o:["All volunteers regardless of gender","Male-identifying and cis-men only","Women, lesbians, intersex, non-binary, trans and agender folks","People new to non-monogamy"],c:2,f:"FLINTA = Women, Lesbians, Intersex, Non-binary, Trans and Agender folks. It's a dedicated circle for these identities."},
-      {q:"What does MAGIC stand for at Open Hub?",o:["Mindful, Active, Grounded, Intentional, Courageous","Male-identifying, Agender, Gender-fluid, Intersex, and Cis-men","Monthly Activist Group for Inclusive Communities","Multi-relational And Gender-Inclusive Circle"],c:1,f:"MAGIC = Male-identifying, Agender, Gender-fluid, Intersex, and Cis-men. Their dedicated sharing circle."},
-      {q:"Which space is designed for non-monogamous family dynamics, including meetups with children?",o:["The Support Group","Town Hall","Families Group","MAGIC"],c:2,f:"The Families Group is specifically for people in non-monogamous family dynamics , mutual support, sharing, and organising meetups with kids."},
-      {q:"What is the purpose of the Town Hall?",o:["A physical HQ building in Lisbon","Decision-making & transparency , a space to gather the whole community","A monthly lecture series on relationship psychology","An online forum for posting questions"],c:1,f:"Town Hall is Open Hub's decision-making and transparency event , where the whole community comes together to shape the organisation's direction."}
+      {q:"What is PolyNight?", o:["A closed support group for polyamorous couples only","A monthly social gathering open to the whole community","A weekly online meeting for volunteers","An annual fundraising gala"], c:1, f:"PolyNight is Open Hub's monthly social gathering, open to everyone in the community. It's the flagship event!"},
+      {q:"The FLINTA circle is specifically for which people?", o:["All volunteers regardless of gender","Male-identifying and cis-men only","Women, lesbians, intersex, non-binary, trans and agender folks","People new to non-monogamy"], c:2, f:"FLINTA = Women, Lesbians, Intersex, Non-binary, Trans and Agender folks. It's a dedicated circle for these identities."},
+      {q:"What does MAGIC stand for at Open Hub?", o:["Mindful, Active, Grounded, Intentional, Courageous","Male-identifying, Agender, Gender-fluid, Intersex, and Cis-men","Monthly Activist Group for Inclusive Communities","Multi-relational And Gender-Inclusive Circle"], c:1, f:"MAGIC = Male-identifying, Agender, Gender-fluid, Intersex, and Cis-men. Their dedicated sharing circle."},
+      {q:"Which space is designed for non-monogamous family dynamics, including meetups with children?", o:["The Support Group","Town Hall","Families Group","MAGIC"], c:2, f:"The Families Group is specifically for people in non-monogamous family dynamics, mutual support, sharing, and organising meetups with kids."},
+      {q:"What is the purpose of the Town Hall?", o:["A physical HQ building in Lisbon","Decision-making & transparency, a space to gather the whole community","A monthly lecture series on relationship psychology","An online forum for posting questions"], c:1, f:"Town Hall is Open Hub's decision-making and transparency event, where the whole community comes together to shape the organisation's direction."},
+      {q:"Someone wants a structured space to learn and debate ideas around non-monogamy. Which Open Hub event fits best?", o:["Support Group, where people share lived experiences","Book Club, which focuses on fiction only","Discussion Group, which is educational and thought-provoking","FLINTA*, which is identity-specific"], c:2, f:"Discussion Group is the facilitated conversation space for topics related to non-monogamy: educational and thought-provoking. The Support Group is for sharing lived experiences in a safe, supported way, a different purpose."},
+      {q:"A FLINTA* member asks what to expect at the next gathering. Which answer is most accurate?", o:["Always a structured sharing circle, same format every time","The format varies: it could be a social with a reflective first hour, a workshop on relational topics, or an outing like a picnic","Exclusively a workshop series on gender theory","An open invitation for anyone regardless of gender identity"], c:1, f:"FLINTA* isn't a fixed format. It adapts to who shows up: socials, workshops, outings. The one constant is that it's a safe space for women, lesbians, intersex, non-binary, trans and agender folks."}
     ]
   },
   {
     id:2, icon:"🛠️", title:"Volunteer Life", sub:"Your role, responsibilities and team norms",
     doc: {
-      highlight: `This is a <strong>collective project</strong>. No one is expected to do everything , there is room for different capacities and rhythms. We don't expect perfection. Just communication. <strong>Your well-being comes first. 💛</strong>`,
+      highlight: `This is a <strong>collective project</strong>. No one is expected to do everything, there is room for different capacities and rhythms. We don't expect perfection. Just communication. <strong>Your well-being comes first. 💛</strong>`,
       sections: [
         {
           title:"🔧 What Volunteers Do",
           items:[
-            {strong:"📣 Marketing & Comms",text:"Create and schedule social media content, apply brand guidelines, moderate chats when needed."},
-            {strong:"📅 Calendar & Planning",text:"Keep calendars up to date, confirm event themes, help assign Lead Organisers for each event."},
-            {strong:"📦 Logistics",text:"Book venues, source materials (e.g. PolyNight stickers), organise supplies like chairs, donation jar, snacks."},
-            {strong:"🎪 During Events",text:"Set up & take down spaces, welcome attendees, hold space during group discussions or activities."},
-            {strong:"💛 Community Care",text:"Run or support volunteer onboarding, Ethics Team work (handling concerns with care)."},
+            {strong:"📣 Marketing & Comms", text:"Create and schedule social media content, apply brand guidelines, moderate chats when needed."},
+            {strong:"📅 Calendar & Planning", text:"Keep calendars up to date, confirm event themes, help assign Lead Organisers for each event."},
+            {strong:"📦 Logistics", text:"Book venues, source materials (e.g. PolyNight stickers), organise supplies like chairs, donation jar, snacks."},
+            {strong:"🎪 During Events", text:"Set up & take down spaces, welcome attendees, hold space during group discussions or activities."},
+            {strong:"💛 Community Care", text:"Run or support volunteer onboarding, Ethics Team work (handling concerns with care)."},
           ]
         },
         {
           title:"📋 Team Norms",
           items:[
-            {strong:"📆 Monthly Meeting",text:"Online meetings on the 1st Monday of each month at 20h30 (date/time may occasionally change)."},
-            {strong:"🚨 Inactivity Policy",text:"If a volunteer is absent from events, meetings and tasks for 3+ months, the team will check in. Continued inactivity may lead to removal from the active list."},
-            {strong:"🛡️ Safety & Consent",text:"While on shift: model inclusive language, notice if consent or safety appears compromised, and escalate serious concerns to the Ethics Team promptly."},
-            {strong:"💬 Communication",text:"If you're overwhelmed, just let someone know. Stepping back is always OK , disappearing without a word is not."},
+            {strong:"📆 Monthly Meeting", text:"Online meetings on the 1st Monday of each month at 20h00 (date/time may occasionally change)."},
+            {strong:"🚨 Inactivity Policy", text:"If a volunteer is absent from events, meetings and tasks for 3+ months, the team will check in. Continued inactivity may lead to removal from the active list."},
+            {strong:"🛡️ Safety & Consent", text:"While on shift: model inclusive language, notice if consent or safety appears compromised, and escalate serious concerns to the Ethics Team promptly."},
+            {strong:"💬 Communication", text:"If you're overwhelmed, just let someone know. Stepping back is always OK, disappearing without a word is not."},
           ]
         }
       ]
     },
     label:"Chapter 3 · Volunteer Life",
     qs:[
-      {q:"When do the monthly online volunteer meetings take place?",o:["Last Friday of each month at 18h00","Every Sunday at 10h00","1st Monday of each month at 20h30","2nd Wednesday at 19h00"],c:2,f:"Monthly online meetings are on the 1st Monday of each month at 20h30 , though dates can occasionally change, so always check with the team."},
-      {q:"After how long of inactivity does Open Hub check in with a volunteer?",o:["1 month","6 months","3 months","1 year"],c:2,f:"If a volunteer hasn't shown up to events, meetings, or helped with tasks for 3 months or more, the team will reach out to check in."},
-      {q:"A serious consent or safety concern arises at an event. What should you do?",o:["Ignore it , not your place","Post about it on social media","Handle it entirely yourself","Escalate it promptly to the Ethics Team"],c:3,f:"Volunteers should notice and gently intervene when consent/safety appears compromised, and escalate serious concerns to the Ethics Team promptly."},
-      {q:"You're overwhelmed and can't contribute this month. What does Open Hub ask of you?",o:["Resign immediately","Disappear quietly to avoid drama","Simply let someone know you need to step back","Write a formal letter of absence"],c:2,f:"Open Hub's agreement: 'We don't expect perfection. Just communication.' Step back , just let someone know. Your well-being comes first. 💛"},
-      {q:"Which of these is a way volunteers can contribute to Open Hub?",o:["Only by attending events as a guest","Managing social media content and applying brand guidelines","Only by donating money monthly","Only by moderating WhatsApp groups"],c:1,f:"Volunteers contribute in many ways: social media, event planning, logistics, moderation, Ethics Team, onboarding support, and more , there's a role for everyone!"}
+      {q:"When do the monthly online volunteer meetings take place?", o:["Last Friday of each month at 18h00","Every Sunday at 10h00","1st Monday of each month at 20h30","2nd Wednesday at 19h00"], c:2, f:"Monthly online meetings are on the 1st Monday of each month at 20h30, though dates can occasionally change, so always check with the team."},
+      {q:"After how long of inactivity does Open Hub check in with a volunteer?", o:["1 month","6 months","3 months","1 year"], c:2, f:"If a volunteer hasn't shown up to events, meetings, or helped with tasks for 3 months or more, the team will reach out to check in."},
+      {q:"A serious consent or safety concern arises at an event. What should you do?", o:["Ignore it, not your place","Post about it on social media","Handle it entirely yourself","Escalate it promptly to the Ethics Team"], c:3, f:"Volunteers should notice and gently intervene when consent/safety appears compromised, and escalate serious concerns to the Ethics Team promptly."},
+      {q:"You're overwhelmed and can't contribute this month. What does Open Hub ask of you?", o:["Resign immediately","Disappear quietly to avoid drama","Simply let someone know you need to step back","Write a formal letter of absence"], c:2, f:"Open Hub's agreement: 'We don't expect perfection. Just communication.' Step back, just let someone know. Your well-being comes first. 💛"},
+      {q:"Which of these is a way volunteers can contribute to Open Hub?", o:["Only by attending events as a guest","Managing social media content and applying brand guidelines","Only by donating money monthly","Only by moderating WhatsApp groups"], c:1, f:"Volunteers contribute in many ways: social media, event planning, logistics, moderation, Ethics Team, onboarding support, and more, there's a role for everyone!"},
+      {q:"A volunteer wants to post community content on Instagram. Which team norm applies most directly to their work?", o:["Logistics, because posts require sourcing materials","Community Care, because posts support member wellbeing","Marketing & Comms, which includes creating content and applying brand guidelines","Calendar & Planning, because posts must be scheduled"], c:2, f:"Marketing & Comms is the role covering social media content creation, scheduling, applying brand guidelines, and moderating chats. Calendar & Planning is a separate function."},
+      {q:"A volunteer hasn't joined any events, meetings, or tasks for 3 months. What happens next according to Open Hub's norms?", o:["They are automatically removed from the volunteer list","Nothing, absence is fine with no consequences","The team checks in with them first; continued inactivity may lead to removal from the active list","They receive a formal written warning"], c:2, f:"The Inactivity Policy is a check-in first, not an automatic removal. After 3 months of absence from events, meetings and tasks the team reaches out. Only continued inactivity may lead to removal."}
     ]
   }
 ];
 
 // ─── STATE ────────────────────────────────────────────────────────────────────
 let cc=0, cq=0, score=0, cScores=[0,0,0], answered=false, readConfirmed=false, streak=0;
-const TOTAL = chapters.reduce((s,c)=>s+c.qs.length,0);
+const TOTAL = chapters.reduce((s, c)=>s+c.qs.length,0);
 
 // ─── UTILS ────────────────────────────────────────────────────────────────────
 function show(id){
   document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
-  window.scrollTo({top:0,behavior:'smooth'});
+  window.scrollTo({top:0, behavior:'smooth'});
   if(id==='s-welcome'){
     spawnOrbs();
-    document.querySelectorAll('.ch-card').forEach((c,i)=>{
+    document.querySelectorAll('.ch-card').forEach((c, i)=>{
       c.classList.remove('animate-in');
       void c.offsetWidth; // force reflow to restart animation
       c.style.animationDelay=`${.12+i*.12}s`;
@@ -143,7 +149,7 @@ function updateGlobalProgress(step){
 
 // ─── VISUAL EFFECT HELPERS ────────────────────────────────────────────────────
 function burstSparks(x, y){
-  const colors=['#FCBF00','#009FE3','#E50051','#ffffff','#5a1878','#FCBF00'];
+  const colors=['#FCBF00', '#009FE3', '#E50051', '#ffffff', '#5a1878', '#FCBF00'];
   for(let i=0;i<18;i++){
     const el=document.createElement('div');
     el.className='spark';
@@ -192,7 +198,7 @@ function spawnOrbs(){
   const hero=document.querySelector('.welcome-hero');
   if(!hero) return;
   hero.querySelectorAll('.hero-orb').forEach(e=>e.remove());
-  const orbColors=['rgba(0,159,227,.22)','rgba(252,191,0,.18)','rgba(229,0,81,.15)','rgba(255,255,255,.1)','rgba(90,24,120,.35)'];
+  const orbColors=['rgba(0,159,227,.22)', 'rgba(252,191,0,.18)', 'rgba(229,0,81,.15)', 'rgba(255,255,255,.1)', 'rgba(90,24,120,.35)'];
   for(let i=0;i<6;i++){
     const el=document.createElement('span');
     el.className='hero-orb';
@@ -203,7 +209,7 @@ function spawnOrbs(){
 }
 
 function confetti(){
-  const colors=['#340C46','#FCBF00','#009FE3','#E50051','#ffffff','#5a1878'];
+  const colors=['#340C46', '#FCBF00', '#009FE3', '#E50051', '#ffffff', '#5a1878'];
   for(let i=0;i<60;i++){
     const el=document.createElement('div');
     el.className='confetti-piece';
@@ -247,7 +253,7 @@ function goToDoc(idx){
   chk.checked=false;
   const btn=document.getElementById('start-quiz-btn');
   btn.disabled=true; btn.style.opacity='.4'; btn.style.cursor='not-allowed';
-  updateGlobalProgress(cc*7);
+  updateGlobalProgress(cc*(chapters[0].qs.length+2));
   show('s-doc');
 }
 
@@ -275,11 +281,11 @@ function renderQ(){
   document.getElementById('q-score-val').textContent=score;
   updateGlobalProgress(cc*7+cq+1);
   const ow=document.getElementById('opts'); ow.innerHTML='';
-  ['A','B','C','D'].forEach((l,i)=>{
+  ['A', 'B', 'C', 'D'].forEach((l, i)=>{
     const b=document.createElement('button');
     b.className='opt';
     b.innerHTML=`<span class="opt-key">${l}</span>${q.o[i]}`;
-    b.onclick=()=>pick(i,b);
+    b.onclick=()=>pick(i, b);
     ow.appendChild(b);
   });
   document.getElementById('fb').style.display='none';
@@ -287,10 +293,10 @@ function renderQ(){
   document.getElementById('next-btn').style.display='none';
 }
 
-function pick(sel,btn){
+function pick(sel, btn){
   if(answered)return; answered=true;
   const q=chapters[cc].qs[cq];
-  document.querySelectorAll('.opt').forEach((b,i)=>{
+  document.querySelectorAll('.opt').forEach((b, i)=>{
     b.disabled=true;
     if(i===q.c&&i!==sel)b.classList.add('reveal');
   });
@@ -305,7 +311,7 @@ function pick(sel,btn){
     const r=btn.getBoundingClientRect();
     const cx=r.left+r.width/2, cy=r.top+r.height/2;
     burstSparks(cx, cy);
-    const labels=['✨ +1','⭐ +1','💛 Correct!','🎯 +1','🌟 +1'];
+    const labels=['✨ +1', '⭐ +1', '💛 Correct!', '🎯 +1', '🌟 +1'];
     floatText(cx, cy, labels[Math.floor(Math.random()*labels.length)], '#FCBF00');
     if(streak>=2) showStreakToast(streak);
   } else {
@@ -344,10 +350,10 @@ function showChapterComplete(){
   const chScore=cScores[cc];
   const total=ch.qs.length;
   const pct=chScore/total;
-  let icon,title,sub;
+  let icon, title, sub;
   if(pct===1){icon='🏆';title='Perfect Score!';sub=`You aced the "${ch.title}" chapter with ${chScore}/${total}. You're already living the values! 🔥`}
-  else if(pct>=.6){icon='🌟';title='Well Done!';sub=`${chScore} out of ${total} , you've got the essentials down for "${ch.title}"!`}
-  else{icon='💪';title='Chapter Done!';sub=`${chScore} out of ${total}. Good start! The quiz helped you spot the gaps , that's the point!`}
+  else if(pct>=.6){icon='🌟';title='Well Done!';sub=`${chScore} out of ${total}, you've got the essentials down for "${ch.title}"!`}
+  else{icon='💪';title='Chapter Done!';sub=`${chScore} out of ${total}. Good start! The quiz helped you spot the gaps, that's the point!`}
   // Stars
   const stars=pct===1?3:pct>=.6?2:1;
   const starsEl=document.getElementById('cc-stars');
@@ -377,23 +383,24 @@ function nextChapter(){
 // ─── RESULTS ──────────────────────────────────────────────────────────────────
 function showResults(){
   const pct=Math.round(score/TOTAL*100);
-  let icon,title,sub;
+  let icon, title, sub;
   if(pct>=90){icon='🏆';title='Exceptional Volunteer!';sub='You know Open Hub inside and out. The community is genuinely lucky to have you on the team. Welcome aboard! 🎉'}
-  else if(pct>=70){icon='🌟';title='Great Work!';sub='You\'ve got a solid grasp of who we are and how we work. A quick re-read will fill any gaps , you\'re almost there!'}
-  else if(pct>=50){icon='💪';title='Good Effort!';sub='A decent foundation! Re-read the sections you found tricky and try again , you\'ve got this!'}
-  else{icon='🌱';title='Keep Growing!';sub='No worries , this is exactly what onboarding is for! Take your time with the docs and give it another shot. We\'re patient. 💜'}
+  else if(pct>=70){icon='🌟';title='Great Work!';sub='You\'ve got a solid grasp of who we are and how we work. A quick re-read will fill any gaps, you\'re almost there!'}
+  else if(pct>=50){icon='💪';title='Good Effort!';sub='A decent foundation! Re-read the sections you found tricky and try again, you\'ve got this!'}
+  else{icon='🌱';title='Keep Growing!';sub='No worries, this is exactly what onboarding is for! Take your time with the docs and give it another shot. We\'re patient. 💜'}
   document.getElementById('r-icon').textContent=icon;
   document.getElementById('r-title').textContent=title;
   document.getElementById('r-sub').textContent=sub;
-  setTimeout(()=>animateCount(document.getElementById('r-score'),0,score,900),400);
+  document.getElementById('r-total').textContent=`/ ${TOTAL} correct`;
+  setTimeout(()=>animateCount(document.getElementById('r-score'),0, score,900),400);
 
   // Badges
   const earnedBadges=[];
   const bdgData=[
-    {l:'Community Heart',i:'💜',e:cScores[0]>=4,desc:'Chapter 1 Master'},
-    {l:'Space Keeper',i:'✨',e:cScores[1]>=4,desc:'Chapter 2 Master'},
-    {l:'Team Player',i:'🛠️',e:cScores[2]>=4,desc:'Chapter 3 Master'},
-    {l:'All-Star Volunteer',i:'🏆',e:pct>=90,desc:'90%+ Score'},
+    {l:'Community Heart', i:'💜', e:cScores[0]>=5, desc:'Chapter 1 Master'},
+    {l:'Space Keeper', i:'✨', e:cScores[1]>=5, desc:'Chapter 2 Master'},
+    {l:'Team Player', i:'🛠️', e:cScores[2]>=5, desc:'Chapter 3 Master'},
+    {l:'All-Star Volunteer', i:'🏆', e:pct>=90, desc:'90%+ Score'},
   ];
   const bg=document.getElementById('badges-grid'); bg.innerHTML='';
   bdgData.forEach(b=>{
@@ -406,7 +413,7 @@ function showResults(){
 
   // Breakdown
   const chb=document.getElementById('ch-breakdown'); chb.innerHTML='';
-  chapters.forEach((ch,i)=>{
+  chapters.forEach((ch, i)=>{
     const row=document.createElement('div');
     row.className='ch-br-row';
     const bPct=Math.round(cScores[i]/ch.qs.length*100);
@@ -429,7 +436,7 @@ function showResults(){
 
   // Copy text
   const badgeNames=earnedBadges.map(b=>`${b.i} ${b.l}`).join(' · ');
-  const copyText=`💜 Open Hub Volunteer Onboarding Complete!\n\n${icon} ${title}\n✅ Score: ${score}/${TOTAL} (${pct}%)\n📊 Chapters: ${chapters.map((ch,i)=>`${ch.icon} ${cScores[i]}/${ch.qs.length}`).join(' | ')}\n🏅 Badges: ${badgeNames||'Keep trying for badges!'}\n\nReady to contribute to the community! 🚀`;
+  const copyText=`💜 Open Hub Volunteer Onboarding Complete!\n\n${icon} ${title}\n✅ Score: ${score}/${TOTAL} (${pct}%)\n📊 Chapters: ${chapters.map((ch, i)=>`${ch.icon} ${cScores[i]}/${ch.qs.length}`).join(' | ')}\n🏅 Badges: ${badgeNames||'Keep trying for badges!'}\n\nReady to contribute to the community! 🚀`;
   document.getElementById('copy-box').textContent=copyText;
 
   if(pct>=70) confetti();
@@ -458,7 +465,7 @@ function restartAll(){
 
 // ─── INIT ─────────────────────────────────────────────────────────────────────
 spawnOrbs();
-document.querySelectorAll('.ch-card').forEach((c,i)=>{
+document.querySelectorAll('.ch-card').forEach((c, i)=>{
   c.style.animationDelay=`${.1+i*.12}s`;
   c.classList.add('animate-in');
 });

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Open Hub · Volunteer Quest</title>
+<link rel="stylesheet" href="styles.css">
+<script src="scripts.js" defer></script>
+</head>
+<body>
+
+<!-- NAV -->
+<div class="top-nav">
+  <span class="logo">💜 Open Hub</span>
+  <span id="nav-step" style="display:none"></span>
+</div>
+
+<!-- GLOBAL PROGRESS -->
+<div class="global-progress" id="global-prog" style="display:none">
+  <div class="gp-label"><span id="gp-label-txt">Your Journey</span><span id="gp-pct">0%</span></div>
+  <div class="gp-bar"><div class="gp-fill" id="gp-fill" style="width:0%"></div></div>
+</div>
+
+<!-- ======= WELCOME ======= -->
+<div class="screen active" id="s-welcome">
+  <div class="welcome-hero">
+    <span class="hero-icon">💜</span>
+    <h1>Volunteer Onboarding Quest</h1>
+    <p>Read · Learn · Earn your badge<br>3 chapters · 15 questions · ~8 minutes</p>
+  </div>
+  <div class="chapter-cards">
+    <div class="ch-card"><span class="ch-num">🌱</span><div class="ch-info"><h3>Who We Are</h3><p>Mission, values & identity</p></div><span class="ch-badge">5 Qs</span></div>
+    <div class="ch-card"><span class="ch-num">✨</span><div class="ch-info"><h3>Spaces & Events</h3><p>All the groups we run</p></div><span class="ch-badge">5 Qs</span></div>
+    <div class="ch-card"><span class="ch-num">🛠️</span><div class="ch-info"><h3>Volunteer Life</h3><p>Your role & responsibilities</p></div><span class="ch-badge">5 Qs</span></div>
+  </div>
+  <div style="text-align:center"><button class="btn btn-pulse" onclick="goToDoc(0)">Begin the Quest 🚀</button></div>
+</div>
+
+<!-- ======= DOC READER ======= -->
+<div class="screen" id="s-doc">
+  <div class="card">
+    <div class="doc-header">
+      <span class="dh-icon" id="dh-icon"></span>
+      <div><h2 id="dh-title"></h2><p id="dh-sub"></p></div>
+    </div>
+    <div id="doc-content"></div>
+    <div class="read-confirm" id="read-confirm">
+      <input type="checkbox" id="read-chk" onchange="toggleConfirm()">
+      <label for="read-chk">I've read this section and I'm ready to be tested! 🎯</label>
+    </div>
+    <div style="text-align:center;margin-top:20px">
+      <button class="btn" id="start-quiz-btn" onclick="startQuiz()" disabled style="opacity:.4;cursor:not-allowed">Take the Quiz →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ======= QUIZ ======= -->
+<div class="screen" id="s-quiz">
+  <div class="quiz-head">
+    <div>
+      <div class="q-chapter" id="q-chapter"></div>
+    </div>
+    <div class="q-score">Score <b id="q-score-val">0</b></div>
+  </div>
+  <div class="q-card">
+    <div class="q-num" id="q-num"></div>
+    <div class="q-text" id="q-text"></div>
+    <div class="opts" id="opts"></div>
+    <div class="feedback" id="fb"></div>
+    <button class="next-btn" id="next-btn" onclick="nextQ()"></button>
+  </div>
+</div>
+
+<!-- ======= CHAPTER COMPLETE ======= -->
+<div class="screen" id="s-chcomplete">
+  <div class="card">
+    <div class="ch-complete">
+      <span class="big" id="cc-icon"></span>
+      <h2 id="cc-title"></h2>
+      <p id="cc-sub"></p>
+      <div class="stars" id="cc-stars"></div>
+      <button class="btn" id="cc-btn" onclick="nextChapter()"></button>
+    </div>
+  </div>
+</div>
+
+<!-- ======= FINAL RESULTS ======= -->
+<div class="screen" id="s-results">
+  <div class="results-hero">
+    <span class="rh-icon" id="r-icon"></span>
+    <h2 id="r-title"></h2>
+    <p id="r-sub"></p>
+    <div class="score-pill"><span id="r-score"></span> <span style="opacity:.6;font-size:16px">/ 15 correct</span></div>
+  </div>
+
+  <div class="card" style="margin-bottom:16px">
+    <h3 style="font-size:15px;font-weight:800;color:var(--purple);margin-bottom:14px">🏅 Badges Earned</h3>
+    <div class="badges-grid" id="badges-grid"></div>
+  </div>
+
+  <div class="card" style="margin-bottom:16px">
+    <h3 style="font-size:15px;font-weight:800;color:var(--purple);margin-bottom:12px">📊 Chapter Breakdown</h3>
+    <div class="ch-breakdown" id="ch-breakdown"></div>
+  </div>
+
+  <!-- SHARE -->
+  <div class="card share-section">
+    <h3 style="font-size:15px;font-weight:800;color:var(--purple);margin-bottom:14px">📤 Share Your Results</h3>
+    <div class="share-card" id="share-card">
+      <span class="sc-icon" id="sc-icon"></span>
+      <h3 id="sc-title"></h3>
+      <div class="sc-sub">Open Hub Volunteer Onboarding</div>
+      <div class="sc-score" id="sc-score"></div>
+      <div class="sc-badges" id="sc-badges"></div>
+    </div>
+    <div class="copy-box" id="copy-box"></div>
+    <button class="btn full green" onclick="copyResults()" style="margin-bottom:10px">📋 Copy Results to Clipboard</button>
+    <div class="copy-success" id="copy-success">✅ Copied! Paste it in your WhatsApp team chat 🎉</div>
+    <div style="text-align:center;margin-top:16px">
+      <button class="btn ghost" onclick="restartAll()">↺ Try Again</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>
